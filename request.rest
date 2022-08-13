@@ -1,0 +1,68 @@
+GET http://localhost:3000/product
+
+###
+GET http://localhost:3000/product/3
+
+###
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "title": "Product 2",
+    "price": "6000"
+}
+
+###
+PATCH http://localhost:3000/product/1
+Content-Type: application/json
+
+{
+    "title": "Product 2",
+    "price": "4000"
+}
+
+###
+DELETE   http://localhost:3000/product/5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+GET http://localhost:3000/user
+
+###
+GET http://localhost:3000/user/3
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name": "Rendi Har",
+    "email": "rendi@gmail",
+    "product": "product 2"
+}
+
+###
+PUT http://localhost:3000/user/2
+Content-Type: application/json
+
+{
+    "name": "Rio Sat",
+    "email": "rio@gmail",
+    "product": "product 13"
+}
+
+###
+DELETE   http://localhost:3000/user/1
