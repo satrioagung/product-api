@@ -3,6 +3,7 @@
 <ol>
 <li>Clone menggunakan git => git clone https://github.com/satrioagung/product-api.git</li>
 <li>Install node_modules => npm install</li>
+<li>Buat database local (default "db_crud")</li>
 <li>Jalankan aplikasi => npm start</li>
 </ol>
 
